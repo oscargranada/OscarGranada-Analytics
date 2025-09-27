@@ -2,6 +2,13 @@
 
 Este notebook presenta un análisis exploratorio de datos escolares en Nueva York, enfocado en el rendimiento en los exámenes SAT. El ejercicio fue desarrollado como parte de mi formación en DataCamp, y adaptado para mostrar buenas prácticas en pandas y visualización de KPIs. El caso práctico y el csv adjunto se obtuvieron de ahi.
 
+## Archivos de soporte
+
+A continuación se incluyen los archivos `schools.csv` que contiene la información de las escuelas para el análisis, y `NYC_SAT_Analysis.ipynb`, un notebook de Python con la implementación completa y ejecutable de la resolución.
+
+- 📄 [schools.csv](Analysis-school-performance-NYC/schools.csv)
+- 📄 [NYC_SAT_Analysis.ipynb](Analysis-school-performance-NYC/NYC_SAT_Analysis.ipynb) 
+
 ## Planteamiento del problema
 
 Cada año, los estudiantes de secundaria estadounidenses presentan el SAT, un examen estandarizado que mide las habilidades de lectoescritura, aritmética y escritura. Consta de tres secciones: lectura, matemáticas y escritura, cada una con una puntuación máxima de 800 puntos. Estos exámenes son fundamentales para estudiantes y universidades, ya que desempeñan un papel fundamental en el proceso de admisión.
