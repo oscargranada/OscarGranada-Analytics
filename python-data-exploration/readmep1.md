@@ -146,7 +146,7 @@ Este ejercicio demuestra cómo aplicar pandas para responder preguntas concretas
 
 **Autor:** Oscar Granada Navarro
 
-Data Analyst & BI Specialist
+Data Analyst & BI Specialist | Ingeniero Industrial
 
 **Linkedin:** [linkedin.com/in/oscargranada](https://www.linkedin.com/in/oscargranada/)
 
