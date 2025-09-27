@@ -46,7 +46,9 @@ schools.head()
 ```
 Al ejecutar, se obtiene el siguiente resultado:
 
-![Imagen](python-data-exploration/Analysis-school-performance-NYC/screenshots-results/school(head).jpg)
+![Imagen](Analysis-school-performance-NYC/screenshots-results/school(head).jpg)
+
+
 
 ### 2. Cálculo de escuelas de la Ciudad de Nueva York con los mejores resultados en matemáticas
 Calculamos qué escuelas alcanzaron al menos el 80% del puntaje máximo en matemáticas (640 puntos sobre 800). Este filtro nos permite identificar instituciones con un desempeño destacado en habilidades numéricas, ordenadas de mayor a menor según su puntaje promedio.
@@ -66,7 +68,7 @@ print(best_math_schools)
 ```
 Al ejecutar, se obtiene el siguiente resultado:
 
-![Imagen](python-data-exploration/Analysis-school-performance-NYC/screenshots-results/best_math_school.jpg)
+![Imagen](Analysis-school-performance-NYC/screenshots-results/best_math_school.jpg)
 
 
 
@@ -89,6 +91,10 @@ top_10_schools = (
 print("\n2. Top 10 schools by total SAT score:")
 print(top_10_schools)
 ```
+Al ejecutar, se obtiene el siguiente resultado:
+
+![Imagen](Analysis-school-performance-NYC/screenshots-results/top_10_school.jpg)
+
 ### 4. Cálculo del distrito con la mayor desviación estándar
 
 Agrupamos las escuelas por distrito (`borough`) y calculamos el número de escuelas, el promedio y la desviación estándar del puntaje total SAT. Identificamos el distrito con mayor variabilidad, lo que puede reflejar desigualdad o diversidad en el rendimiento académico dentro de esa zona.
@@ -117,7 +123,9 @@ print("\n3. Borough with highest SAT score variability:")
 print(largest_std_dev)
 
 ```
+Al ejecutar, se obtiene el siguiente resultado:
 
+![Imagen](Analysis-school-performance-NYC/screenshots-results/largest_std_dev.jpg)
 
 ## Reflexión
 
