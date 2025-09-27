@@ -30,3 +30,6 @@ Exploración de datos públicos sobre escuelas de Nueva York.
 ---
 
 **Sobre mí**: Soy Oscar Granada, analista de datos con enfoque estratégico y narrativo. Transformo información compleja en soluciones claras mediante SQL, Power BI y análisis avanzado de indicadores. Me especializo en visualización efectiva, automatización de procesos y storytelling técnico, siempre orientado a generar impacto real en la operación y el negocio.
+
+**Linkedin:** [linkedin.com/in/oscargranada](https://www.linkedin.com/in/oscargranada/)
+
