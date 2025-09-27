@@ -142,7 +142,16 @@ Tenemos como resultado que el distrito de Manhattan tiene la mayor desviación e
 
 Este ejercicio demuestra cómo aplicar pandas para responder preguntas concretas de negocio o política pública. La lógica usada puede adaptarse fácilmente a entornos logísticos, financieros o de marketing, donde se requiere segmentar, priorizar y visualizar indicadores clave.
 
-## 🔗 Enlaces
+##
 
-- [Notebook en GitHub](link-al-notebook)
-- [Portafolio completo](https://github.com/oscargranada/OscarGranada-Analytics)
+**Autor:** Oscar Granada Navarro
+
+Data Analyst & BI Specialist
+
+**Linkedin:** [linkedin.com/in/oscargranada](https://www.linkedin.com/in/oscargranada/)
+
+**Github:** [github.com/oscargranada](https://github.com/oscargranada)
+
+**Portafolio:** [github.com/oscargranada/OscarGranada-Analytics](https://github.com/oscargranada/OscarGranada-Analytics)
+
+
