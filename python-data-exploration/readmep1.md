@@ -25,8 +25,7 @@ Se le ha encomendado responder tres preguntas clave sobre el rendimiento de las 
 ## Dataset
 
 - **schools.csv**: contiene datos agregados por escuela, incluyendo puntajes promedio en lectura, matemáticas y escritura.
-- Columnas:
-- `school_name`, `borough`, `average_math`, `average_reading`, `average_writing`.
+- Columnas: `school_name`, `borough`, `average_math`, `average_reading`, `average_writing`.
 
 ## Resolución y resultados
 ### 1. Previsualización de la información
@@ -44,11 +43,9 @@ schools = pd.read_csv(url)
 #Previewing the first rows of the dataset to understand its structure
 schools.head()
 ```
-Al ejecutar, se obtiene el siguiente resultado:
+Al ejecutar, se obtiene la vista previa de datos con los 5 primeros registros:
 
 ![Imagen](Analysis-school-performance-NYC/screenshots-results/school(head).jpg)
-
-
 
 ### 2. Cálculo de escuelas de la Ciudad de Nueva York con los mejores resultados en matemáticas
 Calculamos qué escuelas alcanzaron al menos el 80% del puntaje máximo en matemáticas (640 puntos sobre 800). Este filtro nos permite identificar instituciones con un desempeño destacado en habilidades numéricas, ordenadas de mayor a menor según su puntaje promedio.
@@ -70,7 +67,7 @@ Al ejecutar, se obtiene el siguiente resultado:
 
 ![Imagen](Analysis-school-performance-NYC/screenshots-results/best_math_school.jpg)
 
-
+Como podemos ver, 10 escuelas superaron el puntaje de 640 (80% del puntaje máximo) en el examen de matemáticas, siendo la escuela Stuyvesant High School la que ocupa el puesto número 1 con el mayor puntaje (754).
 
 ### 3. Calculo del top 10 de escuelas con mayor puntaje SAT combinado (math + reading + writing)
 Creamos una nueva columna `total_SAT` que suma los puntajes promedio en matemáticas, lectura y escritura. A partir de esta métrica, seleccionamos las 10 escuelas con mejor rendimiento académico global, lo que ofrece una visión integral del desempeño estudiantil.
@@ -94,6 +91,8 @@ print(top_10_schools)
 Al ejecutar, se obtiene el siguiente resultado:
 
 ![Imagen](Analysis-school-performance-NYC/screenshots-results/top_10_school.jpg)
+
+Y como podemos apreciar dentro del top 10 de las escuelas con el mayor resultado SAT combinado,  la escuela Stuyvesant High School nuevamente ocupa el npuesto número 1. Esto nos da un indicio de la calidad educativa de dicha escuela, no solo en matemáticas, lo que podría influir en las decisiones de los padres de familia al momento de elegir la mejor escuela para sus hijos.
 
 ### 4. Cálculo del distrito con la mayor desviación estándar
 
@@ -126,6 +125,11 @@ print(largest_std_dev)
 Al ejecutar, se obtiene el siguiente resultado:
 
 ![Imagen](Analysis-school-performance-NYC/screenshots-results/largest_std_dev.jpg)
+
+Tenemos como resultado que el distrito de Manhattan tiene la mayor desviación estándar, con lo que podríamos intuir lo siguiente:
+
+- Hay una gran dispersión en los puntajes, lo que sugiere que conviven escuelas con rendimientos muy altos y otros con puntajes más bajoss.
+- Manhattan podría tener una mezcla de escuelas especializadas, preparatorias de élite, pero a la vez contar con escuelas con menos recursos, haciendo que aumente la brecha de desempeño.
 
 ## Reflexión
 
