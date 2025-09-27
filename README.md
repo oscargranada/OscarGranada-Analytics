@@ -8,6 +8,8 @@ Bienvenido a mi portafolio personal, donde presento proyectos de analítica end-
 
 **Caso ficticio de análisis logístico.**
 
+Herramientas: SQL, Power Query, DAX, Power BI
+
 - Preparación de datos en SQL Server: modelado relacional, penalidades, tarifas.
 - Dashboard en Power BI: KPIs operativos, rentabilidad por cliente, entregas fuera de tiempo.
 - Lógica avanzada con DAX y Power Query (M).
@@ -16,6 +18,8 @@ Bienvenido a mi portafolio personal, donde presento proyectos de analítica end-
 [Visualizar proyecto Trench Logistics](/Trench-Logistics/TrenchLogistics_ES.md) 
 
 ## ✅ Caso práctico: Análisis de rendimiento escolar en NYC – SAT Scores
+
+Herramientas: Python
 
 Exploración de datos públicos sobre escuelas de Nueva York.
 - Análisis exploratorio con pandas y visualización de KPIs.
