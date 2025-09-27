@@ -1,6 +1,6 @@
 # 📁 Portafolio de Analítica de Datos – Oscar Granada
 
-Bienvenido a mi portafolio personal, donde presento proyectos de analítica end-to-end que combinan preparación de datos en SQL, modelado en Power BI y análisis estratégico orientado a resultados. Cada caso refleja mi enfoque técnico y narrativo para resolver desafíos reales mediante datos.
+Bienvenido a mi portafolio personal, donde presento proyectos de analítica end-to-end que combinan preparación de datos en SQL, modelado en Power BI y análisis estratégico orientado a resultados, además de casos prácticos en Python. Cada caso refleja mi enfoque técnico y narrativo para resolver desafíos reales mediante datos.
 
 ---
 
