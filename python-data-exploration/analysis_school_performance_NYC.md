@@ -18,8 +18,8 @@ Analizar el rendimiento de las escuelas es crucial para diversas partes interesa
 Se le ha proporcionado un conjunto de datos llamado schools.csv, cuya vista previa se muestra a continuación.
 
 Se le ha encomendado responder tres preguntas clave sobre el rendimiento de las escuelas públicas de la ciudad de Nueva York (NYC) en el SAT.
-% del puntaje total (800)
-1. ¿Qué escuelas de la Ciudad de Nueva York tienen los mejores resultados en matemáticas? Considerando los mejores aquellos que superen el 
+
+1. ¿Qué escuelas de la Ciudad de Nueva York tienen los mejores resultados en matemáticas? Considerando los mejores aquellos que superen el 80% del puntaje total (800).
 2. ¿Cuáles son las 10 escuelas con mejor rendimiento según las puntuaciones combinadas del SAT?
 3. ¿Qué distrito tiene la mayor desviación estándar en la puntuación combinada del SAT?
 
